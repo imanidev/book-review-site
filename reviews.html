@@ -1,8 +1,36 @@
-<nav class="main-nav">
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="books.html">Books</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reviews</title>
+    </head>
+
+    <body>
+        <nav class="reviews-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="our-friends.html">Visit our friends</a></li>
+                <li><a href="top-picks.html">Top Picks</a></li>
+            </ul>
+        </nav>
+        <form>
+            <fieldset>
+                <legend>Submit Your Book Review</legend>
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle" name="bookTitle" required><br>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required><br>
+                <label for="spoiler">Contains Spoilers:</label>
+                <input type="checkbox" id="spoiler" name="spoiler"><br>
+                <label for="review">Your Review:</label><br>
+                <textarea id="review" name="review" rows="4" cols="50" required></textarea><br>
+                <button type="submit">Submit Review</button>
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>

@@ -9,7 +9,7 @@ This is a simple website built using HTML and CSS where users can read and write
 - Browse books by categories
 - Read reviews
 - Write your own reviews
-- Search functionality (optional)
+- Search functionality
 
 ## Installation and Setup
 

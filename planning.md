@@ -1,6 +1,6 @@
 ## Page 1
   - Background color: FFFCF2
-  - Font: Nunito Sans
+  - Font: Nunito Sans, Lato
   - Nav bar
     - Color: EB5E28
     - Text-decoration: underline
