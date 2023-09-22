@@ -1,0 +1,45 @@
+html,
+body {
+    background-color: #FFFCF2;
+    font-family: 'Nunito';
+}
+
+h1 {
+    color: #252422;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    font: bolder;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+.container {
+    margin-left: 45%;
+}
+
+.hero-img {
+    border-radius: 10%;
+    float: left;
+    height: 400px;
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+.tagline {
+    text-align: center
+}
+
+.home-nav {
+    text-align: center;
+}
+
+footer {
+    margin-left: 45%;
+}
