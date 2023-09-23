@@ -32,7 +32,9 @@ Simply navigate to the website and browse through the book categories. To write 
 
 ## Screenshots
 
-*(coming soon)*
+<img width="1271" alt="Home" src="https://github.com/imanidev/book-review-site/assets/111655655/34585b42-5a01-47ec-b1d0-02b195486916">
+<img width="1213" alt="Reviews" src="https://github.com/imanidev/book-review-site/assets/111655655/5da7b3ef-9c6f-4dc5-b5e0-3725c8a5b3c3">
+
 
 ## Technologies Used
 
