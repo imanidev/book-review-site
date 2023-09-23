@@ -1,0 +1,30 @@
+html,
+body {
+    font-family: Lato,Helvetica,
+        Arial,
+        Verdana,
+        Tahoma,
+        sans-serif;
+    background-color: #FFFCF2;
+}
+
+.book-nav>ul>li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+p {
+    width: 70%;
+    line-height: 2.5;
+}
+
+a {
+    text-decoration: underline;
+    color: #403D39;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #403D39;
+}
