@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reviews</title>
         <link rel="stylesheet" href="reviews.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Nunito+Sans:opsz@6..12&display=swap"
+            rel="stylesheet">
     </head>
 
     <body>
@@ -24,8 +29,15 @@
                 <input type="text" id="bookTitle" name="bookTitle" required><br>
                 <label for="author">Author:</label>
                 <input type="text" id="author" name="author" required><br>
-                <label for="spoiler">Contains Spoilers:</label>
-                <input type="checkbox" id="spoiler" name="spoiler"><br>
+                <label for="spoiler">Contains
+
+                    Spoilers:</label>
+
+                <input type="checkbox" id="spoiler" name="spoiler">
+                <span>Yes</span>
+                <input type="checkbox" id="spoiler" name="spoiler">
+                <span>No</span>
+                <br>
                 <label for="review">Your Review:</label><br>
                 <textarea id="review" name="review" rows="4" cols="50" required></textarea><br>
                 <button type="submit">Submit Review</button>
