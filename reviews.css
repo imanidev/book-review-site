@@ -1,8 +1,8 @@
-   html,
-   body {
-       background-color: #CCC5B9;
-   }
-
+html,
+body {
+    background-color: #CCC5B9;
+    font-family: 'Lato', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
 
    li {
        list-style: none;
