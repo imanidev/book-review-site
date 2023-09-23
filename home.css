@@ -18,6 +18,18 @@ h2 {
 li {
     list-style: none;
     display: inline;
+color: #252422;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+color: #8e681d;
+font-weight: bolder;
+}
+
+a:hover {
+    color: #EB5E28
 }
 
 .container {
