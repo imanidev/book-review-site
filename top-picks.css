@@ -1,0 +1,58 @@
+html,
+body {
+    font-family: 'Lato', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #403D39;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #403D39;
+}
+
+/* Container for each row */
+.first-row-container,
+.second-row-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* 3 columns */
+    gap: 16px;
+    /* Gap between grid items */
+}
+
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+label {
+    margin-top: 8px;
+    text-align: center;
+}
